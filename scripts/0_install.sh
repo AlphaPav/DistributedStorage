@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 # Install ipfs
 cd $HOME
-wget https://dist.ipfs.io/go-ipfs/v0.4.14-rc1/go-ipfs_v0.4.14-rc1_linux-amd64.tar.gz
-tar xf go-ipfs_v0.4.14-rc1_linux-amd64.tar.gz
+wget https://dist.ipfs.io/go-ipfs/v0.4.17/go-ipfs_v0.4.17_linux-amd64.tar.gz
+tar xf go-ipfs_v0.4.17_linux-amd64.tar.gz
 sudo mv go-ipfs/ipfs /usr/local/bin/ipfs
 ipfs init
 
 # Installing go
-cd $HOME/ && wget https://storage.googleapis.com/golang/go1.10.1.linux-amd64.tar.gz
-tar -xvf go1.10.1.linux-amd64.tar.gz
+
+cd $HOME/ && wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
+tar -xvf go1.11.linux-amd64.tar.gz
 mkdir $HOME/gopath
 echo "export GOPATH=\$HOME/gopath" >> .bashrc
 echo "export GOROOT=\$HOME/go" >> .bashrc
