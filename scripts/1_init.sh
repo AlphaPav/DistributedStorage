@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Find the public ip address
 # Generate the cluster secret
 # Write the configurations into init.config

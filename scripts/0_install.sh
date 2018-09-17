@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 //install ipfs
 cd $HOME
 wget https://dist.ipfs.io/go-ipfs/v0.4.14-rc1/go-ipfs_v0.4.14-rc1_linux-amd64.tar.gz

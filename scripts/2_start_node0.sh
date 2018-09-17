@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Load configurations
 . init.config
 echo "node0 ip: $node0_ip"
