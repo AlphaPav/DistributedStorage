@@ -6,8 +6,3 @@ go get -u -d github.com/ipfs/go-ipfs
 cd $GOPATH/src/github.com/ipfs/go-ipfs
 make install
 echo "--- Finished installing IPFS ---"
-
-# Start IPFS Node
-echo "--- Init IPFS node ---"
-echo "ipfs init" >> $HOME/ipfs_peer_identity.config
-echo "--- Finished init IPFS node ---"
