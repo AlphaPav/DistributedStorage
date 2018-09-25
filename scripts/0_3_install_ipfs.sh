@@ -8,6 +8,6 @@ make install
 echo "--- Finished installing IPFS ---"
 
 # Start IPFS Node
-echo "--- Starting IPFS node ---"
+echo "--- Init IPFS node ---"
 echo "ipfs init" >> $HOME/ipfs_peer_identity.config
-echo "--- Finished starting IPFS node ---"
+echo "--- Finished init IPFS node ---"

@@ -6,6 +6,7 @@ echo "node0 port: $node0_port"
 echo "cluster secret: $cluster_secret"
 
 # Start IPFS daemon
+ipfs init
 nohup ipfs daemon &
 
 # Init configuration files
